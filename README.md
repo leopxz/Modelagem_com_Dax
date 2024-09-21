@@ -61,3 +61,7 @@ F_Vendas [ID_Produto] → D_Produtos [ID_Produto]<br>
 F_Vendas [ID_Produto] → D_Produtos_Detalhes [ID_Produto]<br>
 F_Vendas [ID_Produto] → D_Descontos [ID_Produto]<br>
 F_Vendas [Date] → D_Calendário [Date]<br>
+
+## Estrutura da Modelagem
+![Captura de tela 2024-09-20 215736](https://github.com/user-attachments/assets/a28be5a1-ceca-4410-aa42-207d7b8ec2c1)
+

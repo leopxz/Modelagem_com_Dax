@@ -28,7 +28,9 @@ Crie visualizações interativas no Power BI utilizando gráficos de colunas, ta
 **1. Tabela Fato:**
 
 F_Vendas: Armazena todos os dados transacionais das vendas.
-Campos principais: ID_Produto, Sales, Units Sold, Sales Price, Discount Band, Segment, Country, Profit, Date.
+
+**Campos principais:**
+ID_Produto, Sales, Units Sold, Sales Price, Discount Band, Segment, Country, Profit, Date.
 
 **2. Tabelas de Dimensão:**
 D_Produtos: Contém dados agregados dos produtos, incluindo médias e valores máximos e mínimos.
@@ -54,8 +56,8 @@ Date, Year, Month, Month Number.
 
 ### 3. Relacionamentos:
 O modelo segue um esquema estrela, onde todas as tabelas de dimensão estão conectadas à tabela fato F_Vendas:
-
-F_Vendas [ID_Produto] → D_Produtos [ID_Produto]
-F_Vendas [ID_Produto] → D_Produtos_Detalhes [ID_Produto]
-F_Vendas [ID_Produto] → D_Descontos [ID_Produto]
-F_Vendas [Date] → D_Calendário [Date]
+<br>
+F_Vendas [ID_Produto] → D_Produtos [ID_Produto]<br>
+F_Vendas [ID_Produto] → D_Produtos_Detalhes [ID_Produto]<br>
+F_Vendas [ID_Produto] → D_Descontos [ID_Produto]<br>
+F_Vendas [Date] → D_Calendário [Date]<br>
